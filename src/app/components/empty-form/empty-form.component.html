@@ -1,0 +1,49 @@
+<div class="form-container">
+  <h1>FORM TITLE</h1>
+  <form>
+
+    <div class="form-row">
+      <label>Username</label>
+      <input type="text" name="username">
+    </div>
+
+    <div class="form-row">
+      <label>Email</label>
+      <input type="email" name="email">
+    </div>
+
+    <div class="form-row">
+      <label>Password: </label>
+      <input type="password" name="password">
+    </div>
+
+    <div class="form-row">
+      <label>Confirm password: </label>
+      <input type="password" name="confirmPassword">
+    </div>
+
+    <div class="form-row">
+      <label>City: </label>
+      <select name="city">
+        <option>Some city</option>
+      </select>
+    </div>
+
+    <div class="form-row">
+      <label>Gender:</label>
+      <div class="radio-column">
+        <input id="male" type="radio" name="gender" [value]="1">
+        <label for="male">1</label>
+
+        <input id="female" type="radio" name="gender" [value]="2">
+        <label for="female">2</label>
+      </div>
+    </div>
+
+    <button> Submit</button>
+
+  </form>
+</div>
+
+
+
